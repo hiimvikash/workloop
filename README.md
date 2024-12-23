@@ -38,6 +38,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 # Steps to start this project from scratch
+
+## Basic Setup
 0. setup Git and GitHub.
 1. run it - `npx create-next-app@latest`
     ```
@@ -51,3 +53,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     ```
 2. Install shadcnUI - `npx shadcn@latest init` and add `Button component`
 3. Run your app and test tailwind and shadcn.
+4. go to `src/app/global.css` and add `html, body, :root { height : 100%}`
+## Auth Screens
+1. `@\src\features\auth\components\auth-screen.tsx` & `@\src\features\auth\types.ts`
+2. add `card`, `input`, `separator` from shadCn UI
+3. install react-icons `npm i react-icons`
+4. make signInCard(`@\src\features\auth\components\sign-in-card.tsx`) which will be used in authScreen
