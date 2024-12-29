@@ -59,3 +59,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 2. add `card`, `input`, `separator` from shadCn UI
 3. install react-icons `npm i react-icons`
 4. make signInCard(`@\src\features\auth\components\sign-in-card.tsx`) which will be used in authScreen
+## Setup Convex DB
+0. Convex is a realtime DB by default.
+1. [Follow this quickstart](https://docs.convex.dev/quickstart/nextjs)
