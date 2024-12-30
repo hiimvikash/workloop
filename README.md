@@ -59,6 +59,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 2. add `card`, `input`, `separator` from shadCn UI
 3. install react-icons `npm i react-icons`
 4. make signInCard(`@\src\features\auth\components\sign-in-card.tsx`) which will be used in authScreen
-## Setup Convex DB
+## Setup Convex DB & Auth
 0. Convex is a realtime DB by default.
 1. [Follow this quickstart](https://docs.convex.dev/quickstart/nextjs)
+2. [Setup convex Auth](https://labs.convex.dev/auth/setup)
+3. [Configure middleware](https://labs.convex.dev/auth/authz/nextjs) & Move `middleware.ts` to `src/middleware.ts`
+4. [Setup Github OAuth](https://labs.convex.dev/auth/config/oauth/github)
+5. Now give power to the "SIGNIN WITH GH" button.
+
+
