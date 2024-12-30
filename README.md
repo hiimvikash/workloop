@@ -65,6 +65,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 2. [Setup convex Auth](https://labs.convex.dev/auth/setup)
 3. [Configure middleware](https://labs.convex.dev/auth/authz/nextjs) & Move `middleware.ts` to `src/middleware.ts`
 4. [Setup Github OAuth](https://labs.convex.dev/auth/config/oauth/github)
-5. Now give power to the "SIGNIN WITH GH" button.
+5. Now give power to the `SIGNIN WITH GH` button.
+6. Now give power to the `SIGNIN WITH Google` button.
 
 
